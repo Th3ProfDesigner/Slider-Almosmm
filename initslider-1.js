@@ -20,17 +20,17 @@ jQuery(document).ready(function(){
 
         jsfolder:jsFolder,
 
-        width:1188,
+        width:1200,
 
-        height:792,
+        height:627,
 
         skinsfoldername:"",
 
-        loadimageondemand:false,
+        loadimageondemand:true,
 
         videohidecontrols:false,
 
-        watermarktextcss:"font:12px Arial,Tahoma,Helvetica,sans-serif;color:#333;padding:2px 4px;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;background-color:#fff;opacity:0.9;filter:alpha(opacity=90);",
+        fullwidth:false,
 
         watermarkstyle:"text",
 
@@ -42,7 +42,7 @@ jQuery(document).ready(function(){
 
         fullscreen:false,
 
-        autoplayvideo:true,
+        autoplayvideo:false,
 
         addmargin:true,
 
@@ -74,13 +74,13 @@ jQuery(document).ready(function(){
 
         watermarkimage:"",
 
-        fullwidth:false,
+        watermarktextcss:"font:12px Arial,Tahoma,Helvetica,sans-serif;color:#333;padding:2px 4px;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;background-color:#fff;opacity:0.9;filter:alpha(opacity=90);",
 
         randomplay:false,
 
         watermarktarget:"_blank",
 
-        scalemode:"fill",
+        scalemode:"fit",
 
         loop:0,
 
@@ -90,7 +90,7 @@ jQuery(document).ready(function(){
 
         navpreviewheight:60,
 
-        timerheight:1,
+        timerheight:2,
 
         descriptioncssresponsive:"font-size:12px;",
 
@@ -98,19 +98,19 @@ jQuery(document).ready(function(){
 
         navthumbresponsivemode:"samesize",
 
-        skin:"Light",
+        skin:"Classic",
 
-        textautohide:true,
+        textautohide:false,
 
-        lightboxshowtwitter:true,
+        lightboxshowtwitter:false,
 
-        addgooglefonts:true,
+        addgooglefonts:false,
 
         navshowplaypause:true,
 
         initsocial:false,
 
-        navshowplayvideo:true,
+        navshowplayvideo:false,
 
         navshowplaypausestandalonemarginx:8,
 
@@ -136,13 +136,13 @@ jQuery(document).ready(function(){
 
         navpreviewwidth:120,
 
-        googlefonts:"NeoSansArabic",
+        googlefonts:"",
 
         navborderhighlightcolor:"",
 
         navcolor:"#999999",
 
-        lightboxdescriptionbottomcss:"{color:#333; font-size:12px; font-family:Arial,Helvetica,sans-serif; overflow:hidden; text-align:left; margin:4px 0px 0px; padding: 0px;}",
+        lightboxdescriptionbottomcss:"{color:#333; font-size:12px; font-family:cairo; overflow:hidden; text-align:center; margin:4px 0px 0px; padding: 0px;}",
 
         lightboxthumbwidth:80,
 
@@ -154,7 +154,7 @@ jQuery(document).ready(function(){
 
         texteffectresponsivesize:600,
 
-        arrowwidth:48,
+        arrowwidth:32,
 
         texteffecteasing:"easeOutCubic",
 
@@ -162,23 +162,23 @@ jQuery(document).ready(function(){
 
         lightboxthumbheight:60,
 
-        navspacing:4,
+        navspacing:8,
 
-        navarrowimage:"navarrows-28-28-0.png",
+        navarrowimage:"https://1.bp.blogspot.com/-LeGfiQ_WKiI/Xc9aoEeOp6I/AAAAAAAACq4/43FGHfwwzmAPq93ARUbMjbcXwn_VV9Y-wCPcBGAYYCw/s1600/navarrows-28-28-0.png",
 
         ribbonimage:"ribbon_topleft-0.png",
 
-        navwidth:109,
+        navwidth:24,
 
-        navheight:72,
+        navheight:24,
 
-        arrowimage:"https://2.bp.blogspot.com/-GXzwkPsXDx4/Xc8sWF1q10I/AAAAAAAACpE/Zym8fl_3ssgqGpglX2L3tygywxx9o9zaQCNcBGAsYHQ/s1600/arrows-48-48-4.png",
+        arrowimage:"https://1.bp.blogspot.com/-xy7mYUiMEg0/Xc9ai18idQI/AAAAAAAACq8/Jx1BcyY9LOAmsF3Y5wrLlvB83y8N4liegCPcBGAYYCw/s1600/arrows-32-32-0.png",
 
         timeropacity:0.6,
 
         titlecssresponsive:"font-size:12px;",
 
-        navthumbnavigationarrowimage:"carouselarrows-32-32-3.png",
+        navthumbnavigationarrowimage:"https://1.bp.blogspot.com/-Bn2slRSHjoM/Xc9ajwkiSuI/AAAAAAAACq4/TzWATuPpzKA7gZavYHbq36RzgcM0pMH0gCPcBGAYYCw/s1600/carouselarrows-32-32-0.png",
 
         navshowplaypausestandalone:false,
 
@@ -194,7 +194,7 @@ jQuery(document).ready(function(){
 
         navthumbdescriptioncss:"display:block;position:relative;padding:2px 4px;text-align:left;font:normal 12px Arial,Helvetica,sans-serif;color:#333;",
 
-        lightboxtitlebottomcss:"{color:#333; font-size:14px; font-family:Armata,sans-serif,Arial; overflow:hidden; text-align:left;}",
+        lightboxtitlebottomcss:"{color:#333; font-size:14px; font-family:cairo; overflow:hidden; text-align:center;}",
 
         arrowstyle:"mouseover",
 
@@ -214,11 +214,11 @@ jQuery(document).ready(function(){
 
         navswitchonmouseover:false,
 
-        playvideoimage:"playvideo-64-64-0.png",
+        playvideoimage:"https://1.bp.blogspot.com/-gBxr6q197l4/Xc9aohf3nuI/AAAAAAAACrA/ZSlBI8CAMD8NiPRa646xojvMuRlFCpLlACPcBGAYYCw/s1600/playvideo-64-64-0.png",
 
         arrowtop:50,
 
-        textstyle:"dynamic",
+        textstyle:"static",
 
         playvideoimageheight:64,
 
@@ -226,17 +226,17 @@ jQuery(document).ready(function(){
 
         showbackgroundimage:false,
 
-        showpinterest:true,
+        showpinterest:false,
 
         navpreviewborder:4,
 
-        navshowplaypausestandaloneheight:48,
+        navshowplaypausestandaloneheight:28,
 
         navdirection:"horizontal",
 
         navbuttonshowbgimage:true,
 
-        navbuttonbgimage:"navbuttonbgimage-28-28-0.png",
+        navbuttonbgimage:"https://1.bp.blogspot.com/-WE-wInS27t4/Xc9aobJFRhI/AAAAAAAACq8/IWVB-_4VFaIgky_uY3kFBAht3rQhXkJ5ACPcBGAYYCw/s1600/navbuttonbgimage-28-28-0.png",
 
         textbgcss:"display:block; position:absolute; top:0px; left:0px; width:100%; height:100%; background-color:#333333; opacity:0.6; filter:alpha(opacity=60);",
 
@@ -244,13 +244,13 @@ jQuery(document).ready(function(){
 
         buttoncss:"display:block; position:relative; margin-top:8px;",
 
-        navborder:2,
+        navborder:4,
 
         navshowpreviewontouch:false,
 
-        bottomshadowimagewidth:110,
+        bottomshadowimagewidth:96,
 
-        showtimer:true,
+        showtimer:false,
 
         navmultirows:false,
 
@@ -266,13 +266,13 @@ jQuery(document).ready(function(){
 
         showribbon:false,
 
-        navstyle:"thumbnails",
+        navstyle:"bullets",
 
         textpositionmarginleft:0,
 
-        descriptioncss:"display:block; position:relative; font:12px \"Lucida Sans Unicode\",\"Lucida Grande\",sans-serif,Arial; color:#fff; margin-top:8px;",
+        descriptioncss:"display:block; position:relative; font:12px cairo; color:#fff; margin-top:8px;",
 
-        navplaypauseimage:"navplaypause-48-48-0.png",
+        navplaypauseimage:"https://1.bp.blogspot.com/-C_6K4UN9zNA/Xc9aoXeqoUI/AAAAAAAACrA/ZX9aLWKoX98UwoZjzoN873z4vUhRvRL3QCPcBGAYYCw/s1600/navplaypause-28-28-0.png",
 
         backgroundimagetop:-10,
 
@@ -288,29 +288,29 @@ jQuery(document).ready(function(){
 
         texteffectdelay1:1000,
 
-        navimage:"bullet-24-24-5.png",
+        navimage:"https://1.bp.blogspot.com/-UrblI5Yw3HU/Xc9ai54Al9I/AAAAAAAACqo/maPcahW6OM4E-48HEt9F2M040Tj7IwDEwCPcBGAYYCw/s1600/bullet-24-24-4.png",
 
         texteffectdelay2:1500,
 
         texteffectduration1:600,
 
-        navshowplaypausestandaloneautohide:true,
+        navshowplaypausestandaloneautohide:false,
 
         texteffectduration2:600,
 
-        navbuttoncolor:"",
+        navbuttoncolor:"#999999",
 
-        navshowarrow:false,
+        navshowarrow:true,
 
         texteffectslidedirection:"left",
 
-        navshowfeaturedarrow:true,
+        navshowfeaturedarrow:false,
 
         lightboxbarheight:64,
 
-        showfacebook:true,
+        showfacebook:false,
 
-        titlecss:"display:block; position:relative; font:bold 14px \"Lucida Sans Unicode\",\"Lucida Grande\",sans-serif,Arial; color:#fff;",
+        titlecss:"display:block; position:relative; font:bold 14px cairo; color:#fff;",
 
         ribbonimagey:0,
 
@@ -328,7 +328,7 @@ jQuery(document).ready(function(){
 
         navshowplaypausestandaloneposition:"bottomright",
 
-        lightboxshowpinterest:true,
+        lightboxshowpinterest:false,
 
         lightboxthumbbottommargin:8,
 
@@ -336,7 +336,7 @@ jQuery(document).ready(function(){
 
         arrowhideonmouseleave:1000,
 
-        navshowplaypausestandalonewidth:48,
+        navshowplaypausestandalonewidth:28,
 
         showsocial:false,
 
@@ -344,7 +344,7 @@ jQuery(document).ready(function(){
 
         navfeaturedarrowimageheight:8,
 
-        navopacity:0.7,
+        navopacity:0.8,
 
         textpositionmarginright:0,
 
@@ -352,7 +352,7 @@ jQuery(document).ready(function(){
 
         bordercolor:"#ffffff",
 
-        border:5,
+        border:0,
 
         navthumbtitlewidth:120,
 
@@ -360,15 +360,15 @@ jQuery(document).ready(function(){
 
         texteffectseparate:true,
 
-        arrowheight:48,
+        arrowheight:32,
 
-        arrowmargin:0,
+        arrowmargin:8,
 
         texteffectduration:600,
 
-        bottomshadowimage:"bottomshadow-110-95-4.png",
+        bottomshadowimage:"https://1.bp.blogspot.com/-zeiTBrrFqYs/Xc9aiycajpI/AAAAAAAACq4/dORBH6Nutw0g-_BNZmrLMB7-m-XO6gm7wCPcBGAYYCw/s1600/bottomshadow-110-95-0.png",
 
-        lightboxshowfacebook:true,
+        lightboxshowfacebook:false,
 
         lightboxshowdescription:false,
 
@@ -376,11 +376,11 @@ jQuery(document).ready(function(){
 
         navfontcolor:"#333333",
 
-        navthumbnavigationstyle:"auto",
+        navthumbnavigationstyle:"arrow",
 
         borderradius:0,
 
-        navbuttonhighlightcolor:"",
+        navbuttonhighlightcolor:"#333333",
 
         textpositionstatic:"bottom",
 
@@ -394,19 +394,19 @@ jQuery(document).ready(function(){
 
         navthumbsmallwidth:48,
 
-        navbordercolor:"#fff",
+        navbordercolor:"#ffffff",
 
         navthumbmediumcolumn:4,
 
         navpreviewarrowimage:"previewarrow-16-8-0.png",
 
-        showbottomshadow:false,
+        showbottomshadow:true,
 
         texteffectslidedistance:30,
 
         shadowcolor:"#aaaaaa",
 
-        showtwitter:true,
+        showtwitter:false,
 
         textpositionmarginstatic:0,
 
@@ -422,7 +422,7 @@ jQuery(document).ready(function(){
 
         texteffectslidedirection2:"right",
 
-        bottomshadowimagetop:98,
+        bottomshadowimagetop:95,
 
         textpositiondynamic:"bottomcenter",
 
@@ -436,39 +436,19 @@ jQuery(document).ready(function(){
 
         socialmode:"mouseover",
 
-        tiles: {
+        elastic: {
 
-            duration:2000,
+            duration:1000,
+
+            easing:"easeOutElastic",
 
             checked:true
 
         },
 
-        slide: {
+        transition:"elastic",
 
-            duration:1000,
-
-            easing:"easeOutCubic",
-
-            checked:true,
-
-            effectdirection:0
-
-        },
-
-        fade: {
-
-            duration:1000,
-
-            easing:"easeOutCubic",
-
-            checked:true
-
-        },
-
-        transition:"tiles,slide,fade",
-
-        scalemode:"fill",
+        scalemode:"fit",
 
         isfullscreen:false,
 
