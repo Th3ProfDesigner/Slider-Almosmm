@@ -68,7 +68,7 @@ jQuery(document).ready(function(){
 
         showwatermark:false,
 
-        slideinterval:20,
+        slideinterval:1000,
 
         watermarkpositioncss:"display:block;position:absolute;bottom:4px;right:4px;",
 
